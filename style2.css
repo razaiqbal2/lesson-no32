@@ -1,0 +1,20 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#container{
+     width: 1000px;
+     height: 550px;
+     background-image: url(project.jpg);
+     margin: 20px ;
+}
+#calculater{
+    width: 320px;
+    height:520px;
+    top: 20px;
+    margin:0;
+    background-color: aliceblue;
+    position: relative;
+}
+#keybroad{
+    height: 400px;
+}
