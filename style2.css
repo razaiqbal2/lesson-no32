@@ -11,10 +11,59 @@ body{
     width: 320px;
     height:520px;
     top: 20px;
-    margin:0;
+    margin:0 auto;
     background-color: aliceblue;
     position: relative;
 }
 #keybroad{
     height: 400px;
+}
+#result{
+    height: 120px;
+}
+.operater,.number,.empty{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 0px;
+    font-size: 30px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+button:nth-child(4){
+    background-color: aquamarine;
+}
+button:nth-child(8) {
+    background-color: goldenrod;
+}
+button:nth-child(12) {
+    background-color: rgb(210, 255, 127);
+}
+button:nth-child(16) {
+    background-color: rgba(101, 114, 110, 0.228);
+}
+button:nth-child(20) {
+    background-color: rgb(125, 114, 208);
+}
+.operater:hover{
+    font-size: 15px;
+    color: darkcyan;
+}
+.number:hover {
+    font-size: 15px;
+    color: rgba(9, 0, 139, 0.737);
+}
+#history{
+     text-align:right;
+     font-size: 15px;
+     color: grey;
+     height: 30px;
+  padding-top: 30px;
+}
+#output {
+    text-align: right;
+    font-size: 15px;
+    color: grey;
+    height: 100px;
 }
